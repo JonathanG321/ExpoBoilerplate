@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "react-native-boilerplate",
-    "slug": "react-native-boilerplate",
+    "name": "expoboilerplate",
+    "slug": "expoboilerplate",
+    "owner": "kintin23",
     "privacy": "unlisted",
     "version": "1.0.0",
     "platforms": ["ios", "android", "web"],
@@ -28,11 +29,11 @@
     },
     "extra": {
       "eas": {
-        "projectId": "18adc0d0-eb1d-11e9-8009-d524ed5cc4a7"
+        "projectId": "1b6364a6-03ea-464b-9b18-04e217285984"
       }
     },
     "updates": {
-      "url": "https://u.expo.dev/18adc0d0-eb1d-11e9-8009-d524ed5cc4a7"
+      "url": "https://u.expo.dev/1b6364a6-03ea-464b-9b18-04e217285984"
     },
     "runtimeVersion": {
       "policy": "sdkVersion"

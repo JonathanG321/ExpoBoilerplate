@@ -7,22 +7,23 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       ...config,
       slug: `DEV - ${config.slug}`,
       name: `DEV - ${config.name}`,
+      owner: 'kintin23',
       updates: {
-        url: 'https://u.expo.dev/YOUR-DEV-PROJECT-ID',
+        url: 'https://u.expo.dev/1b6364a6-03ea-464b-9b18-04e217285984',
       },
       ios: {
         ...config.ios,
-        bundleIdentifier: 'com.yourcompany.yourappname-dev',
+        bundleIdentifier: 'com.yourcompany.expoboilerplate-dev',
         buildNumber: '1.0.0',
       },
       android: {
         ...config.android,
-        package: 'com.yourcompany.yourappname.dev',
+        package: 'com.yourcompany.expoboilerplate.dev',
         versionCode: 1,
       },
       extra: {
         ...config.extra,
-        eas: { projectId: 'YOUR-DEV-PROJECT-ID' },
+        eas: { projectId: '1b6364a6-03ea-464b-9b18-04e217285984' },
         env: process.env.APP_ENV,
         // add more env variables...
       },
@@ -35,12 +36,12 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     name: config.name ?? '',
     ios: {
       ...config.ios,
-      bundleIdentifier: 'com.yourcompany.yourappname',
+      bundleIdentifier: 'com.yourcompany.expoboilerplate',
       buildNumber: '1.0.0',
     },
     android: {
       ...config.android,
-      package: 'com.yourcompany.yourappname',
+      package: 'com.yourcompany.expoboilerplate',
       versionCode: 1,
     },
     extra: {
